@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="data:image/jpeg;base64,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" alt="Birthday Image">
+        <h1>Birthday Invitation</h1>
+        <p>You're invited to celebrate John John'S 22nd Birthday!</p>
+        <p>Date: January 19, 2024</p>
+        <p>Time: 10:00 am</p>
+        <p>Location: Purok 2 Bantug Ramon Isabela</p>
+    
+        <p>We hope you can join us for a day of fun, laughter, and celebration!</p>
+        <p>Best Regards,<br>John</p>
+        <p style="text-align: center;">
+    </div>
+</body>
+</html>
